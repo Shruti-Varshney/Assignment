@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>Registration Page</title>
+	</head>
+	<body>
+		<form method="get" action="HomePage.html" autocomplete="on" >
+			<table border=0 bgcolor="yellow" align="center" height="80%" width="80%">
+				<tr>
+					<td colspan=2 align="center" ><h1>Registration Page</h1></td>
+				</tr>
+				<tr>
+					<td colspan=2 align="center" ><h3>Please enter the required Details</h3></td>
+				</tr>
+				<tr>
+					<td colspan=2><label>Name/Surname</label></td>
+				</tr>
+				<tr>
+					<td colspan=2>
+					<input type=text name=n placeholder="First Name" required autofocus/>                           
+					<input type=text name=sn placeholder="Last Name" required /><br></td>
+				</tr>
+				<tr>
+					<td  colspan=2><label>Phone Number(Please enter a valid phone number)</label></td>
+				</tr>
+				<tr>
+					<td colspan=2><input type=number name=pn placeholder="(000) 0000000000" /><br></td>
+				</tr>
+				<tr>
+					<td colspan=2><label>Email</label></td>
+				</tr>
+				<tr>
+					<td colspan=2><input type=email name=e placeholder="example@example.com"/><br></td>
+				</tr>
+				<tr>
+					<td><label>Username</label></td>
+					<td><input type=text name=uname required /><br></td>
+				</tr>
+				<tr>
+					<td><label>Password</label></td>
+					<td><input type=password name=pass required /><br></td>
+				</tr>
+				<tr>
+					<td><label>Gender</label></td>
+					<td>
+						<input type=radio name=gender value="MALE" />Male
+						<input type=radio name=gender value="FEMALE"/>Female<br>
+					</td>
+				</tr>
+				<tr>
+					<td align="center" colspan=2 >
+						<input type=submit value=Register />
+						<input type=reset value="Reset" />
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

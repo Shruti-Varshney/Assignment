@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Lobster+Two&family=Sniglet&display=swap');
+            :root
+            {
+                --Lobster_two:"Lobster Two",cursive;
+                --Acme:"Acme",cursive;
+            }
+            *{
+                box-sizing: border-box;           
+            }
+            marquee{
+                color:white;
+                font-family: var(--Lobster_two);
+                font-size: 2rem;
+            }
+            .header
+            {
+                text-align: center;
+                height:25vh;
+                width:100vw;
+                padding-top:0.5em;
+                background-color: darkblue;
+                color:white;
+                font-size: 1.8rem;
+                font-family: var(--Lobster_two);
+                text-decoration-line: underline;
+                font-weight: bold;
+            }
+            .container{
+                width:30%;
+                padding:20px;
+                position: relative;
+                box-shadow: 0 3px 3.94px 0.6px rgb(21, 21, 196); 
+                border: 1px solid black;
+                margin: 20px;
+                padding: 25px;
+                background:linear-gradient(to right,#8bdaf7,#d1e3f8);
+                border-radius: 10px;
+            }
+            a{
+                color:darkblue;
+                text-decoration: none;
+                font-weight:20px;
+                font-size:large;
+                font-family:var(--Acme);
+           }
+            h2{
+                color:darkblue;
+                font-weight:bolder;
+                text-align:center;
+                font-family: var(--Lobster_two);
+                text-decoration-line: underline;
+            }
+            h4{
+                color:darkblue;
+                font-weight:bolder;
+                font-family: var(--Lobster_two);
+                text-decoration-line: underline;
+                background-color: rgba(45, 72, 224, 0.5);
+                width:8em;
+                padding:2px;
+            }
+           p
+           {
+            text-align: justify;
+           }
+           .footer
+            {
+                text-align: center;
+                height:10vh;
+                width:100vw;
+                padding-top:1.5em;
+                background-color:black;
+                color:white;
+                font-size: 1rem;
+                font-family: var(--Acme);
+            }
+        </style>
+    </head>
+    <body style="background-color: beige;">
+        <header>
+            <div class="header">
+                <marquee>Banasthali Vidyapith</marquee>
+                Internet and Web Technology (IT 302) Assignment-2<br>Exercises Home Page
+            </div>
+        </header>
+        <main>
+            <div style="display:flex;justify-content:center;">
+                <img src="logo-design.gif" style="width:250px;height:200px;">
+            </div>
+            <div style="display: flex; flex-direction: row;flex-wrap: wrap;justify-content: center;">
+                <script>
+                    links=["Excercise1.html","Excercise2.html","Excercise3.html","Excercise4.html","Excercise5.html","Excercise6.html","Excercise7.html","Excercise8.html","Excercise9.html","Exercise10.html","Excercise11.html","Exercise12.html","Excercise13.html","LabAssignment1.html","Excercise15.html","Excercise16.html","Excercise17.html","Excercise18.html","Excercise19.html","Excercise20.html","Excercise21_2.1.html","Excercise22.html","Excercise23.html","Excercise24.html","Excercise25.html","Excercise26.html","Excercise27.html","Excercise28.html","Excercise29.html","Excercise30.html"];
+                    dates=["Date:-04/01/2023","Date:-04/01/2023","Date:-04/01/2023","Date:-05/01/2023","Date:-05/01/2023","Date:-05/01/2023","Date:-05/01/2023","Date:-11/01/2023","Date:-11/01/2023","Date:-12/01/2023","Date:-11/01/2023","Date:-12/01/2023","Date:-16/01/2023","Date:-18/01/2023","Date:-08/02/2023","Date:-08/02/2023","Date:-08/02/2023","Date:-09/02/2023","Date:-09/02/2023","Date:-09/02/2023","Date:-15/02/2023","Date:-16/02/2023","Date:-22/02/2023","Date:-01/03/2023","Date:-02/03/2023","Date:-23/02/2023","Date:-23/02/2023","Date:-23/02/2023","Date:-27/02/2023","Date:-28/02/2023"];
+                    Questions=["Exercise1","Exercise2","Exercise3","Exercise4","Exercise5","Exercise6","Exercise7","Exercise8","Exercise9","Exercise10","Exercise11","Exercise12","Exercise13","Exercise14","Exercise15","Exercise16","Exercise17","Exercise18","Exercise19","Exercise20","Exercise21","Exercise22","Exercise23","Exercise24","Exercise25","Exercise26","Exercise27","Exercise28","Exercise29","Exercise30"];
+                    description=["Create a web document that contains text.<br><br>The Internet<br><br>A network is a group of connected, communicating devices such as computers and printers. An internet (note the lowercase i) is two or more networks that can communicate with each other. The most notable internet is called the Inter composed of hundreds of thousands of interconnected networks.<br>Use h1 for the title (the first line of text), p for text (the second lines onwards of text). Insert a horizontal rule between the h1 element and the p element. Also use styling elements to format special words using bold, italic, underline etc. Open your new document in a web browser to view the marked-up document.","Create a web page to display a quiz with at least 5 questions.Strictly follow the following instructions.<br><br>•	Each question should have a ordered question number and 4 options with small alphabets.<br>•	Also give a heading to quiz and highlight important words.<br>•	One question should have use of subscript and superscript elements.<br>•	One question should be in a program format I java, c, python etc.","Create a web document containing an ordered list of three items—ice cream, pizza and soft drink. Each ordered list should contain a nested, unordered list of your favourite flavours. Provide three flavours in each unordered list.","Create an HTML5 document that uses an image as an e-mail link. Use attribute alt to provide a description of the image and link","Create an HTML5 document that contains links to your five favourite E-commerce websites. Your page should contain the heading “My Favourite Shopping Web Sites.” Click on each of these links to test your page.","Create a web page to display your class time table in tabular format.","Create a web page having 9 images arranged in 3*3 matrixes. When a user click on any image, it should open in a new tab.","Create a webpage to insert the images/4.jpeg and implement an image map over it. ","Create a user feedback page which asks questions about a software product.","Create an autocomplete input element with an associated datalist that contains the days of the week.","Modify the webpage created in Exercise-2 using HTML form. Use radio buttons for options, so user can choose only one among 4 options. Also add a submit button for quiz submission.","Create a simple search form using a search input element in which the user can enter a search query. Using the Firefox web browser, test the form by entering January and submitting the form. Then enter a J in the input element to see previous entries that started with J—January should be displayed below the input element. Enter June and submit the form again. Now enter a J in the input element to see previous entries that started with J—January and June should be displayed below the input element. Try this with your own search queries as well.","Create a home page for personal website with 4 sections Header, Navigation bar (menu bar), content and footer section. It should have a menu bar for “Bio-Data, Contact, Photo, Video, Notes etc.” For each menu option create a separate web page and link with home page. Structure the web page using HTML table.","Develop static pages (using only HTML) of an online book store, the pages should resemble: www.amazon.com.the website should consist the following pages:<br><br>a.	home page, <br>b.	registration and user login, <br>c.	user profile page, <br>d.	books catalogue, <br>e.	shopping cart, <br>f.	payment by credit card, <br>g.	Order confirmation.","Create Write an external style sheet to format the web document of Exercise 1 to apply following effects:<br><br>a. Put a background color and image with gradient overlay.<br>b. Make h1 heading 30px, bolder, use color according to your background.<br>c. Paragraphs should have font size 15px and choose color according to background.<br>d. Increase line spacing in paragraph text.<br>e. Highlight important words and use styling for that.<br>f. Make h2 heading 20px and choose color according to background.","Create a webpage that displays your favourite quotations in a web page just above images. You have to use border, height, width, margin, padding, outline properties of CSS. Also use text and font properties to add effects in text to display quotations.","Make a layout template that contains a header and two paragraphs. Use float to line up the two paragraphs as columns side by side. Give the header and two paragraphs a border and/or a background color so you can see where they are.","Create an infinite animation of an element moving in a square pattern.","Create a transformation program that includes four images. When the user mouse hover an image, the size of the image should increase by 20%.","Implement a one page personal website to present your resume. Design of the webpage should be like given example.<br><br>https://sachagreif.com/<br><br>Your webpage should also have a navigation menu.","Create a Home Page for Banasthali's Website look like following website.<br><br>https://gsas.harvard.edu/<br><br>Menu should be <br>About Us | Academics | Research | Campus & Facilities | School Education | Admissions<br>And top bar should be <br>News & Events| International | Careers| Placements |Alumni | Contact Us| Login Hub<br>You should use your own color scheme and background only the layout should be followed.","Implement a Javascript function that accept number of rows(m) and columns(n) from user and displays a 2D m x n square layout of alternate colorsblack and red.","Create a web page to display events in card layout. An event should have image, title, date and description fields. Store all these values in Javascript array or object for multiple events and generate dynamic cards for each events on webpage.","Create a Web page that accept a value in a text box for temperature in one unit and convert it to another. It should accept input in kelvin, Celsius, Fahrenheit and Convert accordingly. ","Create a user registration form which accepts first name, last name, user ID, password, confirm password, Address, Email ID, Contact number.Apply appropriate client side validations using JavaScript for all fields of html form. Also layout this form using a CSS.","Create a Webpage with two buttons start and stop. When user click on start button a timer should start to count seconds. When a user click on stop button then it should stop. "," Create a Webpage to display digital clock that display updated time of your system without refreshing webpage","Write a JavaScript to display greeting message according to time with user name that is accessing the webpage. When user clicks on the greeting message it should hide.","Write a JavaScript code that displays text “TEXT-GROWING” with increasing font size in the interval of 100ms in RED COLOR, when the fontsize reaches 50pt it displays “TEXT-SHRINKING” in BLUE color. Then thefont size decreases to 5pt. "," Write a script that plays a “guess the number” game as follows: Your program chooses the number to be guessed by selecting a random integer in the range 1 to 1000. The script displays the prompt Guess a number between 1 and 1000 next to a text field. The player types a first guess in to the text field and clicks a button to submit the guess to the script. If the player's guess is incorrect, your program should display Too high. Try again. or Too low. Try again. to help the player “zero in” on the correct answer and should clear the text field so the user can enter the next guess. When the user enters the correct answer, display Congratulations. You guessed the number! and clear the text field so the user can play again."];
+                    for(i=0;i<30;i++)
+                    {
+                        x='<div class="container">'+
+                            '<div class="description">'+'<a href='+links[i]+
+                            ' target=_blank>'+'<h4>'+dates[i]+'</h4>'+'<h2>'+Questions[i]+'</h2><p>'+description[i]+'</p></a></div></div>';
+                        document.write(x);
+                    }
+                </script>
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                Copyright &copy; Made By Shruti Varshney , 2023.<br>
+            </div>
+        </footer>
+    </body>
+</html>
